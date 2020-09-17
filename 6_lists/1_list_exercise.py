@@ -37,9 +37,9 @@ def xrange(*args):
         raise TypeError("Invalid Number of Arguments!")
 
 
-print(xrange(1, 5))
-print(xrange(1, 10, 2))
-print(xrange(10))
+# print(xrange(1, 5))
+# print(xrange(1, 10, 2))
+# print(xrange(10))
 
 # print(mrange(1, 6))  # [1, 2, 3, 4, 5]
 # print(mrange(1, 7, 2))  # [1, 3, 5]

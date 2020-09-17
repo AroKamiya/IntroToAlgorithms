@@ -47,6 +47,10 @@ city = "Vancouver"
 print(city)
 
 l = ["String", 10, True, 3.14, [1, 2, 3], "Hello"]
+
+for item in l:
+    print(item)
+
 l[0] = "Nicer String"
 print(l)
 # subscript []
